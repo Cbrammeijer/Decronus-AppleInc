@@ -1,0 +1,156 @@
+@font-face { 
+  font-family: Ubuntu;
+  src: url('font/Ubuntu-R.ttf'),url('font/Ubuntu-R.eot');
+}
+
+body{
+  background-color: #EDEDED;
+  background-image: url('background.png');
+  font-family: Ubuntu;
+  -ms-transition: 0.1s; -moz-transition: 0.1s; -webkit-transition: 0.1s; -o-transition: 0.1s; 
+}
+
+form{
+  text-align: center;
+  color: #636363; 
+  font-size: 15px;
+  padding: 10px;
+  background-color: #DBDBDB;
+  border-radius: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+input, textarea{
+  font-family: Ubuntu;
+  color: #636363;
+  background-color: #EDEDED;
+  border: 0;
+  border-radius: 3px;
+  margin-top: 10px;
+  -ms-transition: 0.2s; -moz-transition: 0.2s; -webkit-transition: 0.2s; -o-transition: 0.2s; 
+}
+
+input:hover, textarea:hover{
+  background-color: #E6E6E6;
+}
+
+input.button:active{
+  background-color: #C75D5D;
+  color: #EDEDED;
+}
+
+div.navbar{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+div.navbar > div{
+  display: inline-block;
+  text-align: center;
+  width: 19%;
+}
+
+a{
+  color: #505050;
+  text-decoration: none;
+  font-size: 15px;
+  -ms-transition: 0.3s; -moz-transition: 0.3s; -webkit-transition: 0.3s; -o-transition: 0.3s;
+}
+
+p > a{
+  text-decoration: underline;  
+}
+
+p > a.download{
+  text-decoration: underline;
+  float: right;  
+}
+
+a:hover{
+  color: #C75D5D;
+}
+
+hr{
+  width: 90%;
+  background-color: #333333;
+  border: 0;
+  height: 1px;
+  border-radius: 0.5px;
+}
+
+img.me{
+  border-radius: 5px;
+  float: right;
+  margin-left: 1%;
+  margin-right: 5%;
+  margin-top: 1%;
+  width: 11%;
+  height: 11%;
+}
+
+img.release{
+  border-radius: 5px;
+  float: right;
+  margin-left: 1%;
+  margin-right: 5%;
+  margin-top: 1%;
+  width: 20%;
+  height: 20%;
+}
+
+img.wallpaper_thumb{
+  border-radius: 5px;
+  width: 16%;
+  margin-left: 42%;
+  margin-right: 42%;
+}
+
+p.title{
+  color: #303030;
+  font-size: 60px;
+  text-align: center;
+  margin-top:-10px;
+  margin-bottom:-10px;
+}
+
+p.subtitle{
+  color: #505050;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  background-color: #D6D6D6;
+  border-radius: 3px;
+}
+
+p.text{
+  color: #636363; 
+  font-size: 15px;
+  padding: 10px;
+  background-color: #DBDBDB;
+  border-radius: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#loading{
+  color: #636363;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: #E0E0E0;
+}
+ 
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #C0C0C0;
+}
+
